@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmi</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading-1">Filmi</h1>
+        <div class="options">
+            <div class="search-container">
+                <input type="search" placeholder="Search a movie | director | Actor" class="input">
+            </div>
+            <div>
+                <select class="rating-select" id="rating-select">
+                    <option class="option" value="">Rating</option>
+                    <option class="option" value="7">7 & Above</option>
+                    <option class="option" value="8">8 & Above</option>
+                    <option class="option" value="8.5">8.5 & Above</option>
+                    <option class="option" value="9">9 & Above</option>
+                </select>
+            </div>
+            <div>
+                <select class="rating-select" id="genre-select">
+                    <option class="option" value="">Genres</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="main"></div>
+    <script type="module" src="index.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</body>
+</html>
